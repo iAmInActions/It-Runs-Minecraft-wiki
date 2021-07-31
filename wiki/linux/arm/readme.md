@@ -106,3 +106,5 @@ Launch the game by going to Start Menu -> Games -> Minecraft Launcher.
 On the raspberry pi forums is a post of someone who managed to make minecraft 1.8.9 work using a shady lwjgl port from unkown source.
 
 The post can be found [here.](https://www.raspberrypi.org/forums/viewtopic.php?f=78&t=137279)
+
+There have been many speculations where these two (https://www.dropbox.com/s/4oxcvz3ky7a3x6f/liblwjgl.so https://www.dropbox.com/s/m0r8e01jg2og36z/libopenal.so) files came from but none of them are confirmed by this time.
