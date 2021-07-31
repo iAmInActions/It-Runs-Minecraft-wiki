@@ -101,7 +101,7 @@ Launch the game by going to Start Menu -> Games -> Minecraft Launcher.
 
 **Note: This will only work for Minecraft 1.13-1.16.5 on default. 1.17 is not yet supported. For versions below 1.13 on 32 bit arm, you need to edit the java launch arguments to be `-Dorg.lwjgl.librarypath=~/lwjgl2arm32 -Xmx1G -XX:-UseAdaptiveSizePolicy -Xmn128M`.**
 
-**Method 2: The shady forum post**
+# Method 2: The shady forum post
 
 On the raspberry pi forums is a post of someone who managed to make minecraft 1.8.9 work using a shady lwjgl port from unkown source.
 
