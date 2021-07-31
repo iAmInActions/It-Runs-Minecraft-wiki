@@ -94,3 +94,7 @@ echo -e '{
   }
 }' > $HOME/.minecraft/launcher_profiles.json
 ```
+
+Step 4:
+
+Launch the game by going to Start Menu -> Games -> Minecraft Launcher.
