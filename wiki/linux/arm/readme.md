@@ -53,7 +53,7 @@ wget https://github.com/chunky-milk/Minecraft/raw/main/lwjgl3arm32.tar.gz
 wget https://github.com/chunky-milk/Minecraft/raw/main/lwjgl2arm32.tar.gz
 tar -zxf lwjgl3arm32.tar.gz -C ~/lwjgl3arm32
 tar -zxf lwjgl2arm32.tar.gz -C ~/lwjgl2arm32
-mkdir -p ~/.minecraft
+mkdir -p ~/.mclaunch
 echo -e '{
   "profiles": {
     "(Default)": {
@@ -70,12 +70,12 @@ echo -e '{
     "format": 21,
     "profilesFormat": 1
   }
-}' > $HOME/.minecraft/launcher_profiles.json
+}' > $HOME/.mclaunch/launcher_profiles.json
 
 # This step is for 64 bit arm:
 wget https://github.com/chunky-milk/Minecraft/raw/main/lwjgl3arm64.tar.gz
 tar -zxf lwjgl3arm64.tar.gz -C ~/lwjgl3arm64
-mkdir -p ~/.minecraft
+mkdir -p ~/.mclaunch
 echo -e '{
   "profiles": {
     "(Default)": {
@@ -92,7 +92,7 @@ echo -e '{
     "format": 21,
     "profilesFormat": 1
   }
-}' > $HOME/.minecraft/launcher_profiles.json
+}' > $HOME/.mclaunch/launcher_profiles.json
 ```
 
 Step 4:
